@@ -2,13 +2,12 @@ package sorting;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class SortingProblems {
 
 	public static void main(String[] args) {
 		
-		int arr1[] = {-4,-1,0,3,10};
-		arr1 = sortedSquares(arr1);
-		System.out.println(Arrays.toString(arr1));
+		
 	}
 	
 	public static int[] sortedSquares(int[] A) {
@@ -31,11 +30,11 @@ public class SortingProblems {
 		
 		
 	// My solution, O(NlogN)
-//        for(int i = 0; i < nums.length; ++i) {
-//        	nums[i] = nums[i] * nums[i];
-//        }
-//        Arrays.sort(nums);
-//        return nums;
+	//        for(int i = 0; i < nums.length; ++i) {
+	//        	nums[i] = nums[i] * nums[i];
+	//        }
+	//        Arrays.sort(nums);
+	//        return nums;
 	}
-
+	
 }

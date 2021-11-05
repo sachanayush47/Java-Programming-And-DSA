@@ -22,13 +22,196 @@ public class ArraysProblem {
 //		int temp[] = sortArrayByParity(arr4);
 //		printArray(temp);
 		
-		int arr5[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
-		int arr6[] = {1, 2, 3, 2};
-		System.out.println(sumOfUnique(arr5));
+//		int arr5[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+//		int arr6[] = {1, 2, 3, 2};
+//		System.out.println(sumOfUnique(arr5));
 		
+//		int arr[] = {7,6,4,3,1};
+//		
+//		System.out.println(bestTimeToBuyAndSellStock(arr));
+		
+//		int arr1[] = {1,2,3,0,0};
+//		int arr2[] = {2,5};
+//		
+//		mergeSortedArrays(arr1, 3, arr2, 2);
+//		
+//		System.out.println(Arrays.toString(arr1));
+		
+//		int arr[] = {1,7,3,6,5,6};
+//		
+//		findPivotIndex(arr);
+		
+		System.out.println(pascalTriangle(6));
 		
 		
 	}
+	
+	public static int[] twoSum(int arr[], int target) {
+	// https://leetcode.com/problems/two-sum		#LS
+		
+		HashMap<Integer, Integer> hs = new HashMap<Integer, Integer>();
+		int result[] = new int[2];
+		
+		for(int i = 0; i < arr.length; ++i) {
+			if(hs.containsKey(target - arr[i])) {
+				result[0] = i;
+				result[1] = hs.get(target - arr[i]);
+				return result;
+			}
+			hs.put(arr[i], i);
+		}
+		
+		return result;
+	}
+	
+	
+	public static int bestTimeToBuyAndSellStock(int prices[]) {
+	// https://leetcode.com/problems/two-sum/		#LS
+		int profit = 0;
+		int min = 0;
+		
+		for(int i = 0; i < prices.length-1; ++i) {
+			min = Math.min(prices[i], min);
+			profit = Math.min(prices[i] - min, profit);
+		}
+		return profit;
+	}
+	
+	
+	public static void mergeSortedArrays(int nums1[], int m, int nums2[], int n) {
+	// https://leetcode.com/problems/merge-sorted-array/		#LS
+		int resTail = m+n-1;		// Result tail
+		int nums1Tail = m-1;		// nums1 tail
+		int nums2Tail = n-1;		// nums2 tail
+		
+		while(nums1Tail >= 0 && nums2Tail >= 0) {
+			if(nums1[nums1Tail] > nums2[nums2Tail]) {
+				nums1[resTail--] = nums1[nums1Tail--];
+			} else {
+				nums1[resTail--] = nums2[nums2Tail--];
+			}
+		}
+		
+		while(nums2Tail >= 0) {
+			nums1[resTail--] = nums2[nums2Tail--];
+		}
+	}
+	
+	
+	public static void moveZeroes(int nums[]) {
+	// https://leetcode.com/problems/move-zeroes/		#LS
+        int zero = 0;
+        int number = 0;   
+        while(number < nums.length) {      
+            if(nums[zero] == 0 && zero < number && nums[number] != 0) {
+                nums[zero++] = nums[number];
+                nums[number++] = 0;
+            } else {
+                if(nums[zero] != 0) ++zero;
+                if(nums[number] == 0) ++number;
+                if(zero >= number) ++number;
+            }
+        }
+	}
+	
+	
+	public static int bestTimeToBuyAndSellStock2(int prices[]) {
+	// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/	#LS
+        int profit = 0;
+        
+        if(prices.length == 1) return profit;
+        
+        for(int i = 1; i < prices.length; ++i) {
+            if(prices[i] > prices[i-1]) {
+                profit = profit + prices[i] - prices[i-1];
+            }
+        }
+        return profit;
+	}
+	
+	
+	public static int[] runningSum(int arr[]) {
+	// https://leetcode.com/problems/running-sum-of-1d-array	#LS
+        if(arr.length == 1) return arr;
+        
+        for(int i = 1; i < arr.length; ++i) {
+            arr[i] = arr[i] + arr[i-1];
+        }
+        
+        return arr;
+	}
+	
+	
+	public static int findPivotIndex(int nums[]) {
+	// https://leetcode.com/problems/find-pivot-index/		#LS
+		int rSum = 0;		// Right sum
+		int lSum = 0;		// Left sum
+		
+		
+		// Calculating sum of all element in array.
+		for(int i = 0; i < nums.length; ++i) {
+			rSum += nums[i];
+		}
+		
+		// Finding the pivot index.
+		for(int i = 0; i < nums.length; ++i) {
+			
+			rSum -= nums[i];
+			if(rSum == lSum) return i;
+			lSum += nums[i];
+		}
+		
+		return -1;
+	}
+	
+
+	public static int findMajorityElement(int nums[]) {
+	// https://leetcode.com/problems/majority-element/		#LS
+		
+        int major = nums[0];
+        int count = 0;
+        
+        for(int i = 0; i < nums.length; ++i) {
+            if(count == 0) {
+                major = nums[i];		// Updating major
+                ++count;				// Increment count
+            } else if(nums[i] == major) {
+                ++count;				// Increment count
+            } else {
+                --count;				// Decrement count
+            }
+        }
+        
+        return major;
+		
+	}
+	
+	
+	public static List<List<Integer>> pascalTriangle(int n) {
+	// https://leetcode.com/problems/pascals-triangle/		#LS
+		List<List<Integer>> triangle = new ArrayList<List<Integer>>();
+		
+		for(int i = 0; i < n; ++i) {
+			List<Integer> row = new ArrayList<Integer>();		// Row
+			if(i == 0) {					// Row 1
+				row.add(1);					// First element for row 1.
+			} else if(i == 1) {				// Row 2
+				row.add(1);					// First and second element for row 2.
+				row.add(1);
+			} else {						// Row 3 and more.
+				int size = triangle.get(i-1).size();	// Size of last added list.
+				row.add(1);								// Adding first element to the row.
+				for(int j = 1; j < size; ++j) {
+					// Calculating and adding next element.
+					row.add(triangle.get(i-1).get(j) + triangle.get(i-1).get(j-1));
+				}
+				row.add(1);					// Adding last element to the lost.
+			}
+			triangle.add(row);				// Adding "row" to "triangle".
+		}
+		return triangle;
+	}
+
 	
 	public static void swap(int arr[], int key1, int key2) {
 	/** Method to swap two(Key1 and Key2) elements of array. 
@@ -42,7 +225,7 @@ public class ArraysProblem {
 	
 	public static void printMatrix(int arr[][]) {
 	// Self made method: This method is just made to make my work easy.
-	// Print a matrix.
+	// Prints a matrix.
 		
 		for(int i = 0; i < arr.length; ++i) {
 			for(int j = 0; j < arr[0].length; ++j) {
@@ -60,6 +243,7 @@ public class ArraysProblem {
 			System.out.print(arr[i] +" ");
 		}
 	}
+	
 	
 	public static int largestElementInArr(int arr[]) {
 	// #GFG

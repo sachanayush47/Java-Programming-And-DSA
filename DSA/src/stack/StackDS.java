@@ -24,7 +24,14 @@ public class StackDS {
 		 * 		peek()
 		 * 		search(e)					Search for particular data and returns boolean.	
 		 * 		empty() 
+		 * 		size()
 		 */
+		
+		sLL.push(10);
+		sLL.push(20);
+		
+		System.out.println(sLL.get(0));
+		
 	
 	}
 

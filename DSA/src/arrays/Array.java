@@ -33,7 +33,7 @@ public class Array {
 	 *		addAll(Collection)
 	 *		get(index)
 	 *		set(index, value)
-	 *		remove(index)
+	 *		remove(index)						Removes the element present at given index and return it.
 	 *		removeAll()
 	 *		clear()
 	 *		size()
