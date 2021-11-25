@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="Coordinates"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="binaryTree.Node"/>
+    <fullyQualifiedTypeName name="java.time.chrono.HijrahEra"/>
+    <fullyQualifiedTypeName name="cp.CircularLinkedList"/>
 </qualifiedTypeNameHistroy>

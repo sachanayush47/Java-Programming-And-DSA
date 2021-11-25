@@ -40,6 +40,7 @@ public class Strings {
 	// Method to convert char to string.
 		String str1 = "Ayush Sachan";
 		
+		
 		char ch = str1.charAt(7);					
 		String str2 = String.valueOf(ch);
 				

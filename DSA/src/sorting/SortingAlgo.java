@@ -8,13 +8,17 @@ public class SortingAlgo {
 
 	public static void main(String[] args) {
 		
-		int arr[] = {50, 90, 33, 10, 9, 6};
+		// int arr[] = {50, 90, 33, 10, 9, 6};
 		
 		//quickSort(arr, 0, arr.length - 1);
 		
-		selectionSort(arr);
+//		selectionSort(arr);
+//		
+//		System.out.println(Arrays.toString(arr));
 		
-		System.out.println(Arrays.toString(arr));
+		int arr[] = {30, 79, 55, 12, 80, 23, 20}; 
+		
+		bubbleSort(arr);
 	}
 
 	// Insertion sort.
@@ -25,7 +29,7 @@ public class SortingAlgo {
 			int j = i-1;
 			while(j >= 0 && arr[j] > key) {
 				arr[j+1] = arr[j];
-				j--;
+				--j;
 			}
 			arr[j+1] = key;
 		}
@@ -155,10 +159,12 @@ public class SortingAlgo {
 	
 	// Bubble sort.
 	public static void bubbleSort(int arr[]) {
-	// Apni Kaksha.	
+
 		for(int i = 0; i < arr.length-1; ++i) {
 			
 			boolean isSorted = true;
+			
+			System.out.println("Pass " + i);
 			
 			for(int j = 0; j < arr.length-i-1; ++j) {
 				if(arr[j] > arr[j + 1]) {
@@ -166,12 +172,15 @@ public class SortingAlgo {
 					arr[j+1] = arr[j];
 					arr[j] = temp;
 				
+					System.out.println(Arrays.toString(arr));
 					isSorted = false;
 				}
 			}
 			
 			if(isSorted) break;
 		}
+		System.out.println("Final result");
+		System.out.println(Arrays.toString(arr));
 	}
 	
 	// Selection sort.

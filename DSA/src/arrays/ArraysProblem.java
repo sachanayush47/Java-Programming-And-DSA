@@ -46,6 +46,8 @@ public class ArraysProblem {
 		
 	}
 	
+	// -----------------------------------------------------------------------
+	
 	public static int[] twoSum(int arr[], int target) {
 	// https://leetcode.com/problems/two-sum		#LS
 		
@@ -74,6 +76,7 @@ public class ArraysProblem {
 			min = Math.min(prices[i], min);
 			profit = Math.min(prices[i] - min, profit);
 		}
+		
 		return profit;
 	}
 	
@@ -126,6 +129,7 @@ public class ArraysProblem {
                 profit = profit + prices[i] - prices[i-1];
             }
         }
+        
         return profit;
 	}
 	
@@ -160,7 +164,6 @@ public class ArraysProblem {
 			if(rSum == lSum) return i;
 			lSum += nums[i];
 		}
-		
 		return -1;
 	}
 	
@@ -181,9 +184,7 @@ public class ArraysProblem {
                 --count;				// Decrement count
             }
         }
-        
         return major;
-		
 	}
 	
 	
@@ -211,6 +212,23 @@ public class ArraysProblem {
 		}
 		return triangle;
 	}
+	
+	
+	public static int removeDuplicate(int nums[]) {
+	// https://leetcode.com/problems/remove-duplicates-from-sorted-array/		#LS
+        int lengthOfUniqueElements = 0;
+        
+        for(int j = 1; j < nums.length; ++j) {
+            if(nums[lengthOfUniqueElements] != nums[j]) {
+                ++lengthOfUniqueElements;
+                nums[lengthOfUniqueElements] = nums[j];
+            }
+        } 
+        return 1+lengthOfUniqueElements;
+	}
+	
+	
+	// -----------------------------------------------------------------------
 
 	
 	public static void swap(int arr[], int key1, int key2) {
