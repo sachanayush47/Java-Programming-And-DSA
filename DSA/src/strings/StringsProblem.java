@@ -10,6 +10,19 @@ public class StringsProblem {
 		
 	}
 	
+	public static int lengthOfLongestSubstring(String s) {
+		
+		int res = 0;
+		
+		for(int i = 0; i < s.length(); ++i) {
+			HashSet<Character> c = new HashSet<Character>();
+			for(int j = i+1; j < s.length(); ++j) {
+				
+			}
+		}
+		return 69;
+	}
+	
     public static String defangIPaddr(String address) {
     // https://leetcode.com/problems/defanging-an-ip-address
         String splitString[] = address.split("\\.");

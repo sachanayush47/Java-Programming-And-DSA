@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="binaryTree.Node"/>
     <fullyQualifiedTypeName name="java.time.chrono.HijrahEra"/>
     <fullyQualifiedTypeName name="cp.CircularLinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

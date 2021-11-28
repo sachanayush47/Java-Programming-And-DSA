@@ -5615,3 +5615,4040 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 2 2021-11-25 13:20:35.726
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-11-25 13:20:35.726
+!MESSAGE The project description file (.project) for 'Tools' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2021-11-25 15:40:52.795 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-25 15:40:56.619
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 15:40:56.619
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11015ca0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ebbc06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-25 15:41:00.238
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-25 19:59:17.371 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-25 19:59:20.744
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:59:20.745
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f73f0c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fdac2a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-25 19:59:24.003
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-25 21:39:24.199 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-25 21:39:30.175
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 21:39:30.175
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58f290bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3220c28,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-25 21:39:33.818
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-26 11:30:15.580 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-26 11:30:19.710
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-26 11:30:19.710
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70c31b17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40863800,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-26 11:30:25.481
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-26 12:46:39.186 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-26 12:46:42.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-26 12:46:42.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40863800,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5950054d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-26 12:46:46.779
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-27 11:45:20.083 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-27 11:45:22.216
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-27 11:45:22.216
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c2bea52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11015ca0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-27 11:45:28.047
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-27 21:51:48.018 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-27 21:51:53.812
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-27 21:51:53.812
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50672905,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@430d3021,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-27 21:51:57.535
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:34.789
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary()
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:34.790
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:34.791
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:37.808
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root)
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:37.810
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:37.810
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:41.326
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root, ArrayLis)
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:41.327
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:41.328
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:42.841
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root, ArrayList<I>)
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:42.842
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:42.843
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:44.357
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root, ArrayList<Inte>)
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:44.358
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:44.358
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:45.376
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root, ArrayList<Integer>)
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:45.378
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:45.379
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-11-27 22:14:49.906
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package binaryTree;
+
+import java.util.*;
+
+public class BinaryTree<E> {
+	
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {		
+	/** @author Ayush
+	 *	A Tree with each node having atmost 2 children is binary Tree.
+	 *	Maximum number of nodes at level at level i is 2^i.
+	 *	Maximum number of nodes in a tree with height h is 2^h-1.	
+	 */
+
+		// Node root = createTree();
+		
+		/**
+		 * 					1
+		 * 				 /	   \
+		 * 				2	    3
+		 * 			   / \	   / \	
+		 * 			  4   5  100 200
+		 * 			     / \
+		 * 			    6   7
+		 * 					/
+		 * 				   69
+		 */
+		
+		Node root1 = new Node(1);
+		root1.left = new Node(2);
+		root1.left.left = new Node(4);
+		
+		root1.right = new Node(3);
+		root1.right.left = new Node(100);
+		root1.right.right = new Node(200);
+		
+		root1.left.right = new Node(5);
+		
+		root1.left.right.left = new Node(6);
+		root1.left.right.right = new Node(7);
+		root1.left.right.right.left= new Node(69);
+		root1.left.right.right.right= new Node(70);
+		
+		Node root2 = new Node(1);
+		root2.left = new Node(2);
+		root2.left.left = new Node(4);
+		
+		root2.right = new Node(3);
+		
+		root2.left.right = new Node(5);
+		
+		root2.left.right.left = new Node(6);
+		root2.left.right.right = new Node(7);
+		root2.left.right.right.left= new Node(69);
+		
+		
+		//System.out.println(balancedBinaryTree(root));
+
+		System.out.println(boundaryTraversal(root1));
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static void leftBoundary(Node root, ArrayList<Integer>) {
+	
+	public static ArrayList<Integer> boundaryTraversal(Node root) {
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<List<Integer>> zigZagTraversal(Node root) {
+	// I did both solution 1 and 2 on my own.
+		
+		// Solution 1 ---------------------------
+//		List<List<Integer>> res = new ArrayList<List<Integer>>();
+//		ArrayDeque<Node> ad = new ArrayDeque<Node>();
+//		
+//		if(root == null) return res;
+//		ad.offerFirst(root);
+//		
+//		boolean flip = false;
+//		
+//		while(!ad.isEmpty()) {
+//			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+//			int size = ad.size();
+//			
+//			for(int i = 0; i < size; ++i) {
+//				if(flip == true) {
+//					if(ad.peekLast().right != null) ad.offerFirst(ad.peekLast().right);
+//					if(ad.peekLast().left != null) ad.offerFirst(ad.peekLast().left);
+//				} else if(flip == false){
+//					if(ad.peekFirst().left != null) ad.offerLast(ad.peekFirst().left);
+//					if(ad.peekFirst().right != null) ad.offerLast(ad.peekFirst().right);
+//				}
+//				
+//				if(flip) zigZag.add(ad.pollLast().data);
+//				else zigZag.add(ad.pollFirst().data);
+//			}
+//			flip = !flip;
+//			res.add(zigZag);
+//		}
+//		return res;
+		
+		// Solution 2 ---------------------------
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		
+		if(root == null) return res;
+		
+		boolean flip = false;
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.add(root);
+		while(!q.isEmpty()) {
+			ArrayList<Integer> zigZag = new ArrayList<Integer>();
+			int size = q.size();
+			
+			for(int i = 0; i < size; ++i) {
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				if(flip) zigZag.add(0, q.poll().data);
+				else zigZag.add(q.poll().data);
+			}
+			flip = !flip;
+			res.add(zigZag);
+		}
+		
+		return res;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// This is completly written by own my thinking process having same time complexity than
+	// the below ones but taking more memory and very long code in comparison.
+	
+//	public static boolean isSameTree(Node root1, Node root2) {
+//		
+//		boolean res[] = new boolean[1];
+//		res[0] = true;
+//		identicalTrees(root1, root2, res);
+//		
+//		return res[0];
+//	}
+//	
+//	public static void identicalTrees(Node root1, Node root2, boolean isIdentical[]) {
+//		
+//		if(root1 == null && root2 == null) return;
+//		if(root1 == null || root2 == null) {
+//			isIdentical[0] = false;
+//			return;
+//		}
+//	
+//		if(root1.data != root2.data) isIdentical[0] = false;
+//		identicalTrees(root1.left, root2.left, isIdentical);
+//		identicalTrees(root1.right, root2.right, isIdentical);
+//		
+//	}
+	
+	// Copied
+	public static boolean isSameTree2(Node root1, Node root2) {
+		if(root1 == null || root2 == null) {
+			return root1==root2;
+		}
+		
+		return (root1.data==root2.data) &&
+				isSameTree2(root1.left, root2.left) && isSameTree2(root1.right, root2.right);
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int maxPathSum(Node root) {
+		
+		int maxSum[] = new int[1];
+		maxSum[0] = Integer.MIN_VALUE;
+		
+		getPathSum(root, maxSum);
+		
+		return maxSum[0];
+		
+	}
+
+	public static int getPathSum(Node root, int maxSum[]) {
+		if(root == null) return 0;
+		
+		int maxL = Math.max(0, getPathSum(root.left, maxSum));
+		int maxR = Math.max(0, getPathSum(root.right, maxSum));
+		
+		maxSum[0] = Math.max(maxSum[0], root.data + maxL + maxR);
+		
+		return root.data + maxL + maxR;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int diameterOfAbinaryTree(Node root) {
+		
+		int diameter[] = new int[1];
+		depth(root, diameter);
+		
+		return diameter[0];
+	}
+	
+	public static int depth(Node root, int diameter[]) {
+		if(root == null) return 0;
+		
+		int lh = depth(root.left, diameter);
+		int rh = depth(root.right, diameter);
+		
+		diameter[0] = Math.max(diameter[0], lh+rh);
+		
+		return Math.max(lh, rh) + 1;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean balancedBinaryTree(Node root) {
+	// If at any level, |(lh-rh > 1)| then tree is not balanced.
+
+		int height = height(root);
+		
+		if(height == -1) return false;
+		return true;
+	}
+	// This function is a part of method "balancedBinaryTree".
+	public static int height(Node root) {
+		
+		if(root == null) return 0;
+		
+		int lh = height(root.left);
+		if(lh == -1) return -1;
+		int rh = height(root.right);
+		if(rh == -1) return -1;
+		
+		if(Math.abs(rh-lh) > 1) return -1;
+		
+		return 1+Math.max(lh, rh);
+		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	// Using recursion.
+	public static int heightOfABinaryTree1(Node root) {
+		
+		if(root == null) return 0;
+		
+		int left = heightOfABinaryTree1(root.left);
+		int right = heightOfABinaryTree1(root.right);
+		
+		return 1 + Math.max(left, right);
+		
+	}
+	
+	// Using level order traversal.
+	public static int heightOfABinaryTree2(Node root) {
+		
+		int height = 0;
+		if(root == null) return height;
+		
+		Queue<Node> q = new LinkedList<Node>();
+		
+		q.offer(root);
+		while(!q.isEmpty()) {
+			
+			int level = q.size();
+			for(int i = 0; i < level; ++i) {
+				
+				if(q.peek().left != null) q.offer(q.peek().left);
+				if(q.peek().right != null) q.offer(q.peek().right);
+				
+				q.poll();
+			}
+			++height;
+		}
+		return height;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static List<Integer> iterativePostorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		Stack<Node> s = new Stack<Node>();
+		Stack<Node> r = new Stack<Node>();
+		
+		if(root == null) return result;
+		
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			r.push(root);
+			
+			if(root.left != null) s.push(root.left);
+			if(root.right != null) s.push(root.right);
+			
+		}
+		
+		while(!r.isEmpty()) {
+			result.add(r.pop().data);
+		}
+		
+		return result;
+	}
+	
+	public static List<Integer> iterativePreorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		s.push(root);
+		
+		while(!s.isEmpty()) {
+			
+			root = s.pop();
+			
+			if(root.right != null) s.push(root.right);
+			if(root.left != null) s.push(root.left);
+			
+			result.add(root.data);
+		}
+		return result;
+	}
+	
+	public static List<Integer> iterativeInorderTraversal(Node root) {
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		if(root == null) return result;
+		
+		Stack<Node> s = new Stack<Node>();
+		
+		Node temp = root;
+		while(true) {
+			
+			if(temp != null) {
+				s.push(temp);
+				temp = temp.left;
+			} else {
+				if(s.empty()) break;
+				
+				temp = s.pop();
+				result.add(temp.data);
+				temp = temp.right;
+			}
+		}
+		return result;
+	}
+	
+	
+	public static List<List<Integer>> levelOrderTraversal(Node root) {
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return wrapList;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		return wrapList;
+	}
+		
+	public static void inOrder(Node root) {
+		if(root != null) {
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static void preOrder(Node root) {
+		if(root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	public static void postOrder(Node root) {
+		if(root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.println(root.data);
+		}
+	}
+	
+	// ------------------------------------------------------------------
+	
+	public static Node createTree() {		
+		Node root = null;
+		System.out.println("Enter data: ");
+		int data = sc.nextInt();
+		
+		if(data == -1) return null;		
+		root = new Node(data);
+		
+		System.out.println("Enter left for: " +data);
+		root.left = createTree();
+		
+		System.out.println("Enter right for: " +data);
+		root.right = createTree();
+		
+		return root;
+	}
+	
+}
+
+
+// Node class for Binary Tree
+class Node {
+	Node left, right;
+	int data;
+	
+	public Node(int data) {
+		this.data = data;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-11-27 22:14:49.907
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-11-27 22:14:49.907
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3190)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3349)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1526)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:501)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SESSION 2021-11-28 12:47:12.347 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-11-28 12:47:16.086
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-28 12:47:16.086
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dc55719,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64665781,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-28 12:47:20.225
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ayush'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

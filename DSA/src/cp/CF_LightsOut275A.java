@@ -7,7 +7,6 @@ public class CF_LightsOut275A {
 	public static void main(String[] args) {
 
 		solution();
-		
 	}
 	
 	public static void solution() {
@@ -25,27 +24,19 @@ public class CF_LightsOut275A {
 					
 					try {
 						matrix[i][j+1] = matrix[i][j+1]^1;
-					} catch(ArrayIndexOutOfBoundsException e) {
-						
-					}
+					} catch(ArrayIndexOutOfBoundsException e) {	}
 					
 					try {
 						matrix[i][j-1] = matrix[i][j-1]^1;
-					} catch(ArrayIndexOutOfBoundsException e) {
-						
-					}
+					} catch(ArrayIndexOutOfBoundsException e) {	}
 					
 					try {
 						matrix[i+1][j] = matrix[i+1][j]^1;
-					} catch(ArrayIndexOutOfBoundsException e) {
-						
-					}
+					} catch(ArrayIndexOutOfBoundsException e) {	}
 					
 					try {
 						matrix[i-1][j] = matrix[i-1][j]^1;
-					} catch(ArrayIndexOutOfBoundsException e) {
-						
-					}
+					} catch(ArrayIndexOutOfBoundsException e) {	}
 				}
 			}
 		}
