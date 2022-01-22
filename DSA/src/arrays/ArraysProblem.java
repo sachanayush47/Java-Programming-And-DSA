@@ -41,9 +41,35 @@ public class ArraysProblem {
 //		
 //		findPivotIndex(arr);
 		
-		System.out.println(pascalTriangle(6));
+//		System.out.println(pascalTriangle(6));
 		
+		int arr[][] = {{15, 18}, {1, 3}, {8, 10}, {2, 6}};
+//		int arr[][] = {{1, 4}, {8,  10}};
+		mergeIntervals(arr);
 		
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+	public static int[][] mergeIntervals(int arr[][]) {
+	// https://leetcode.com/problems/merge-intervals/
+		
+		Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
+
+		int interval[] = arr[0];
+		ArrayList<int[]> result = new ArrayList<>();
+		
+		for(int i = 1; i < arr.length; ++i){
+			if(arr[i][0] <= interval[1]) interval[1] = Math.max(interval[1], arr[i][1]);
+			else {
+				result.add(interval);
+				interval = arr[i];
+			}
+		}
+		
+		result.add(interval);
+		
+		return result.toArray(new int[0][]);
 	}
 	
 	// -----------------------------------------------------------------------
@@ -66,6 +92,7 @@ public class ArraysProblem {
 		return result;
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static int bestTimeToBuyAndSellStock(int prices[]) {
 	// https://leetcode.com/problems/two-sum/		#LS
@@ -80,6 +107,7 @@ public class ArraysProblem {
 		return profit;
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static void mergeSortedArrays(int nums1[], int m, int nums2[], int n) {
 	// https://leetcode.com/problems/merge-sorted-array/		#LS
@@ -100,6 +128,7 @@ public class ArraysProblem {
 		}
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static void moveZeroes(int nums[]) {
 	// https://leetcode.com/problems/move-zeroes/		#LS
@@ -117,6 +146,7 @@ public class ArraysProblem {
         }
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static int bestTimeToBuyAndSellStock2(int prices[]) {
 	// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/	#LS
@@ -133,6 +163,7 @@ public class ArraysProblem {
         return profit;
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static int[] runningSum(int arr[]) {
 	// https://leetcode.com/problems/running-sum-of-1d-array	#LS
@@ -145,6 +176,7 @@ public class ArraysProblem {
         return arr;
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static int findPivotIndex(int nums[]) {
 	// https://leetcode.com/problems/find-pivot-index/		#LS
@@ -167,6 +199,7 @@ public class ArraysProblem {
 		return -1;
 	}
 	
+	/* ------------------------------------------------------------------ */
 
 	public static int findMajorityElement(int nums[]) {
 	// https://leetcode.com/problems/majority-element/		#LS
@@ -187,6 +220,7 @@ public class ArraysProblem {
         return major;
 	}
 	
+	/* ------------------------------------------------------------------ */
 	
 	public static List<List<Integer>> pascalTriangle(int n) {
 	// https://leetcode.com/problems/pascals-triangle/		#LS

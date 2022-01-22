@@ -4,7 +4,7 @@ import java.util.*;
 
 public class BinaryTreeProblems {
 	
-	static int ans = 0;			// rangeSumBST method
+	
 	
 	public static void main(String[] args) {
 		
@@ -64,17 +64,50 @@ public class BinaryTreeProblems {
 
 	}
 	
-	public static void mergeTrees(Node root1, Node root2) {
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------ */
+	public static Node mergeTrees(Node root1, Node root2) {
 		
-		if(root1 == null || root2 == null) return;
 		
-		root1.data += root1.data;
 		mergeTrees(root1.left, root2.left);
 		mergeTrees(root1.right, root2.right);
-		
-		
+		return null;
 	}
 	
+	/* ------------------------------------------------------------------ */
+	// https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+	public static int goodNodes(Node root) {
+		
+		int arr[] = new int[1];
+		
+		countGoodNodes(root, Integer.MIN_VALUE, arr);
+		return arr[0];
+	}
+	
+	public static void countGoodNodes(Node root, int largest, int arr[]) {
+		if(root == null) return;
+		
+		if(root.data > largest) {
+			largest = root.data;
+			++arr[0];
+		}
+		
+		countGoodNodes(root.left, largest, arr);
+		countGoodNodes(root.right, largest, arr);
+	}
+	
+	/* ------------------------------------------------------------------ */
 	public static int deepestLeavesSum(Node root) {
 		int sum = 0;
 		if(root == null) return sum;
@@ -95,6 +128,8 @@ public class BinaryTreeProblems {
 		return sum;
 	}
 
+	/* ------------------------------------------------------------------ */
+	static int ans = 0;			// rangeSumBST method
     public static int rangeSumBST(Node root, int low, int high) {
         if(root != null) {
             rangeSumBST(root.left, low, high);

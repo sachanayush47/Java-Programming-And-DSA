@@ -6,20 +6,67 @@ public class StringsProblem {
 
 	public static void main(String[] args) {
 		
-		System.out.println(interpret("G()(al)"));
+		System.out.println(validPalindrome2("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
+		System.out.println(validPalindrome2("upuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucu"));
 		
 	}
 	
-	public static int lengthOfLongestSubstring(String s) {
+	/* ------------------------------------------------------------------ */
+	
+	public static boolean validPalindrome2(String s) {
 		
-		int res = 0;
+		int first = 0;
+		int last = s.length()-1;
 		
-		for(int i = 0; i < s.length(); ++i) {
-			HashSet<Character> c = new HashSet<Character>();
-			for(int j = i+1; j < s.length(); ++j) {
-				
+		while(first < last) {
+			if(s.charAt(first) != s.charAt(last)) {
+				return isPalidrome(s, first+1, last) || isPalidrome(s, first, last-1);
 			}
+			
+			++first;
+			--last;
 		}
+		return true;
+	}
+	
+	public static boolean isPalidrome(String s, int start, int end) {
+		
+		while(start < end) {
+			if(s.charAt(start) != s.charAt(end)) {
+				return false;
+			}
+			++start;
+			--end;
+		}
+		return true;
+	}
+	
+	/* ------------------------------------------------------------------ */
+	
+    public static String longestCommonPrefix(String[] strs) {
+        
+        String prefix = "";
+        String smallest = strs[0];
+        
+        for(int i = 0; i < strs.length; ++i) {
+            if(smallest.length() > strs[i].length()) smallest = strs[i];
+        }
+        
+        int endIndex = 0;
+        while(smallest.length() != 0 && endIndex++ < smallest.length()) {
+            prefix = smallest.substring(0, endIndex);
+            for(int i = 0; i < strs.length; ++i) {
+
+                if(strs[i].startsWith(prefix) == false) {
+                    prefix = smallest.substring(0, endIndex-1);
+                    return prefix;
+                }
+            }
+        }
+        return prefix;
+    }
+	
+	public static int lengthOfLongestSubstring(String s) {
 		return 69;
 	}
 	
