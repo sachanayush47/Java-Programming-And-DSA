@@ -47,9 +47,6 @@ public class Strings {
 	// Converting a String into Integer.
 		int number = Integer.parseInt("200");
 		
-		
-		
-
 	}
 	
 	public static void kadanesAlgorithms() {

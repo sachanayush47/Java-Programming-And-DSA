@@ -75,6 +75,22 @@ public class BinaryTreeProblems {
 	/* ------------------------------------------------------------------ */
 	
 	/* ------------------------------------------------------------------ */
+	public static Node invertTree(Node root) {
+		invertTreeHelper(root);
+		return root;
+	}
+	
+	public static void invertTreeHelper(Node root) {
+		
+		if(root == null) return;
+		
+		invertTreeHelper(root.left);
+		invertTreeHelper(root.right);
+		
+		Node tempLeft = root.left;
+		root.left = root.right;
+		root.right = tempLeft;
+	}
 	
 	/* ------------------------------------------------------------------ */
 	public static Node mergeTrees(Node root1, Node root2) {

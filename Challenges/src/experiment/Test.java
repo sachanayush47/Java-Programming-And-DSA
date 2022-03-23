@@ -59,9 +59,72 @@ public class Test {
 //		
 //		v.putIfAbsent(null, null);
 		
-		arrayGenerator();
+		// arrayGenerator();
+//		System.err.println(-13 >> 2);
+	//	System.out.println((int)(1e9 + 7));
+		
+		
+//		int x = -100;
+//		System.out.println(String.valueOf(x));
+//		String s = "11111111111111111111111111110101";
+//		System.out.println(s.length());
+		
+		
+//		int num = 21;
+//		System.out.println(Integer.toBinaryString(num));
+//		num = num & (~(1 << (5 - 1)));
+//		System.out.println(Integer.toBinaryString(num));
+		
+//		boolean arr[] = new boolean[2];
+//		System.out.println(arr[0]);
+		
+//		Integer arr[][] = new Integer[5][5];
+//		System.out.println(arr[0][0] != null);
+//		
+//		List<Character> a = new ArrayList<>();
+//		a.add('g');
+//		a.add('c');
+//		
+//		System.out.println();
+//		int x = '3';
+//		
+//		System.out.println(x);
+//		
+//		long now = System.currentTimeMillis();
+//	//  slow();
+//		for(int i = 0; i < 100000000; ++i) {
+//        	
+//        }
+//        System.out.println("slow elapsed " + (System.currentTimeMillis() - now) + " ms");
+//        
+//
+//        now = System.currentTimeMillis();
+//    //  fast();
+//        int i = 0;
+//        int j = 100000000;
+//        while(i <= j) {
+//        	++i;
+//        	--j;
+//        }
+//        System.out.println("fast elapsed " + (System.currentTimeMillis() - now) + " ms");
+        
+		System.out.println(Math.max(1, 3));
+        
+        
 		
 	}
+	
+	private static String fast() {
+        StringBuilder s = new StringBuilder();
+        for(int i=0;i<100000;i++) s.append("*");
+        return s.toString();
+    }
+
+    private static String slow() {
+        String s = "";
+        for(int i=0;i<100000;i++) s+="*";
+        return s;
+    }
 	
 	public static void arrayGenerator() {
 		

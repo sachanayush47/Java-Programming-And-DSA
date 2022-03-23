@@ -34,8 +34,8 @@ public class AdityaVermaRecursion {
 			return;
 		}
 		
-		String output1 = output;					// Take
-		String output2 = output + input.charAt(0);	// Not take
+		String output1 = output;					// Not Take
+		String output2 = output + input.charAt(0);	// Take
 		
 		input = input.substring(1);
 		

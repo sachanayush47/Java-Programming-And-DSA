@@ -80,37 +80,23 @@ public class BinaryTree<E> {
 //		System.out.println(verticalTraversal(root1));
 //		System.out.println(verticalTraversal(deserializeTree(serializeTree(root1))));
 		
-		System.out.println(bottomView(root2));
+		Node x = new Node(1);
+		x.right = new Node(2);
+		x.right.right = new Node(3);
+		x.right.right.right = new Node(4);
+		
 		
 	}
 	/* ------------------------------------------------------------------ */
+
+	// TESTING
 	
-	public static ArrayList<Integer> bottomView(Node root) {
-		
-		ArrayList<Integer> res = new ArrayList<>();
-		if(root == null) return res;
-		TreeMap<Integer, Integer> map = new TreeMap<>();
-		Queue<Pair> q = new LinkedList<>();
-		q.offer(new Pair(root, 0));
-		
-		while(!q.isEmpty()) {
-			Pair p = q.poll();
-			Node n = p.root;
-			int col = p.col;
-			
-			map.put(col, n.data);
-			
-			if(n.left != null) q.offer(new Pair(n.left, col-1));
-			if(n.right != null) q.offer(new Pair(n.right, col+1));
-		}
-		
-		for(Integer i : map.values()) {
-			res.add(i);
-		}
-		
-		return res;
-		
-	}
+	
+	
+	
+	
+	/* ------------------------------------------------------------------ */
+	
 	
 	// Method 1: Recursive, preferred in interviews.
 	public static void flattenBTtoLL1(Node root) {
@@ -456,7 +442,7 @@ public class BinaryTree<E> {
 //	}
 	
 	public static Node lowestCommonAncestor(Node root, Node p, Node q) {
-		if(root == null || root == p || root == q) return root;
+		if(root == null || root.data == p.data || root.data == q.data) return root;
 		
 		Node left = lowestCommonAncestor(root.left, p, q);
 		Node right = lowestCommonAncestor(root.right, p, q);
@@ -726,11 +712,16 @@ public class BinaryTree<E> {
 	// This solution is by RVA. It has more readability, clean and understandble.
     public static ArrayList <Integer> boundaryTraversal(Node root) {
 	    ArrayList<Integer> ans = new ArrayList<Integer>(); 
-	    ans.add(root.data);
+	    if(root == null) return ans;
 	    
-	    addLeftBoundary(root, ans); 
+	    if(isLeaf(root)) {
+	    	ans.add(root.data);
+	    	return ans;
+	    } else ans.add(root.data);
+	    
+	    addLeftBoundary(root.left, ans); 
 	    addLeaves(root, ans); 
-	    addRightBoundary(root, ans); 
+	    addRightBoundary(root.right, ans); 
 	    return ans;
 	}
     
@@ -739,7 +730,7 @@ public class BinaryTree<E> {
     }
     
     public static void addLeftBoundary(Node root, ArrayList<Integer> res) {
-        Node cur = root.left;
+        Node cur = root;
         while (cur != null) {
             if (isLeaf(cur) == false) res.add(cur.data);
             if (cur.left != null) cur = cur.left;
@@ -748,7 +739,7 @@ public class BinaryTree<E> {
     }
     
     public static void addRightBoundary(Node root, ArrayList<Integer> res) {
-        Node cur = root.right;
+        Node cur = root;
         ArrayList<Integer> tmp = new ArrayList<Integer>();
         
         while (cur != null) {

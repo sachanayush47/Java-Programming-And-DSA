@@ -29,6 +29,18 @@ public class BST {
 	/* ------------------------------------------------------------------ */
 
 	/* ------------------------------------------------------------------ */
+	public static Node lowestCommonAncestor(Node root, Node p, Node q) {
+		
+		if(root == null) return null;
+		
+		if((p.data < root.data && q.data > root.data) 
+				|| (p.data > root.data && q.data < root.data)
+				|| (root.data == p.data || root.data == q.data)) return root;
+		
+		if(p.data < root.data && q.data < root.data) return lowestCommonAncestor(root.left, p, q);
+		else return lowestCommonAncestor(root.right, p, q);
+		
+	}
 
 	/* ------------------------------------------------------------------ */
 	public static boolean isValidBST(Node root) {
