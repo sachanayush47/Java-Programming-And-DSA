@@ -2,6 +2,9 @@ package dynamicProgramming;
 
 import java.util.Arrays;
 
+// NOTE : Some questions similar to knapsack can be 1D array sapce optimised.
+// Questions similar to knapsack are 19, 23, 24.
+
 @SuppressWarnings("unused")
 public class DynamicProgramming2 {
 
@@ -15,8 +18,94 @@ public class DynamicProgramming2 {
 
 	
 	/* ------------------------------------------------------------------ */
-	/* ------------------------------------------------------------------ */
 	
+				// DP on subsequences/subset : Rod Cutting Problem
+	
+	// 24.1
+	public static int cutRod1(int price[], int n) {
+		return cutRod1Helper(n - 1, price, n);
+	}
+	
+	public static int cutRod1Helper(int i, int price[], int n) {
+		
+		if(i == 0) return price[0] * n;
+		
+		int take = Integer.MIN_VALUE;
+		int rodLength = i + 1;
+		if(rodLength <= n) take = price[i] + cutRod1Helper(i, price, n - rodLength);
+		int notTake = cutRod1Helper(i - 1, price, n);
+		
+		return Math.max(take, notTake);
+	}
+	
+	// 24.2
+	public static int cutRod2(int price[], int n) {
+		Integer dp[][] = new Integer[n][n + 1];
+		return cutRod2Helper(n - 1, price, n, dp);
+	}
+	
+	public static int cutRod2Helper(int i, int price[], int n, Integer dp[][]) {
+		
+		if(i == 0) return price[0] * n;
+		
+		if(dp[i][n] != null) return dp[i][n];
+		
+		int take = Integer.MIN_VALUE;
+		int rodLength = i + 1;
+		
+		if(rodLength <= n) take = price[i] + cutRod2Helper(i, price, n - rodLength, dp);
+		int notTake = cutRod2Helper(i - 1, price, n, dp);
+		
+		return dp[i][n] = Math.max(take, notTake);
+	}
+	
+	// 24.3
+	public static int cutRod3(int price[], int n) {
+		
+		int dp[][] = new int[n][n + 1];
+		
+		for(int j = 0; j <= n; ++j) dp[0][j] = price[0] * j;
+		
+		for(int i = 1; i < n; ++i) {
+			for(int j = 0; j <= n; ++j) {
+				int take = Integer.MIN_VALUE;
+				int rodLength = i + 1;
+				
+				if(rodLength <= j) take = price[i] + dp[i][j - rodLength];
+				int notTake = dp[i - 1][j];
+				
+				dp[i][j] = Math.max(take, notTake);
+			}
+		}
+		
+		return dp[n - 1][n];
+	}
+	
+	// 24.4
+	public static int cutRod4(int price[], int n) {
+		
+		int prev[] = new int[n + 1];
+		
+		for(int j = 0; j <= n; ++j) prev[j] = price[0] * j;
+		
+		for(int i = 1; i < n; ++i) {
+			int curr[] = new int[n + 1];
+			
+			for(int j = 0; j <= n; ++j) {
+				int take = Integer.MIN_VALUE;
+				int rodLength = i + 1;
+				
+				if(rodLength <= j) take = price[i] + curr[j - rodLength];
+				int notTake = prev[j];
+				
+				curr[j] = Math.max(take, notTake);
+			}
+			
+			prev = curr;
+		}
+		
+		return prev[n];
+	}
 	
 	/* ------------------------------------------------------------------ */
 	

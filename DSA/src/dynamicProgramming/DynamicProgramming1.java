@@ -73,7 +73,8 @@ public class DynamicProgramming1 {
 		return maximumChocolates2Helper(0, 0, c-1, grid, dp);
 	}
 	
-	public static int maximumChocolates2Helper(int i, int j1, int j2, int[][] grid, Integer dp[][][]) {
+	public static int maximumChocolates2Helper(int i, int j1, int j2, int[][] grid, 
+			Integer dp[][][]) {
 		
 		if(j1 < 0 || j2 < 0 || j1 >= grid[0].length || j2 >= grid[0].length) return -(int)1e8;
 		if(i == grid.length-1) {
@@ -789,43 +790,46 @@ public class DynamicProgramming1 {
 		
 		int notPick = maximumNonAdjacentSum1Helper(index-1, nums);
 		int pick = maximumNonAdjacentSum1Helper(index-2, nums) + nums.get(index);
-		
 		return dp[index] = Math.max(notPick, pick);
 		
 	}
 	
 	// 5.3
-	public static int maximumNonAdjacentSum3(ArrayList<Integer> nums) {
+	public static int maximumNonAdjacentSum3(int[] nums) {
 		
-		int dp[] = new int[nums.size()];
-		dp[0] = nums.get(0);
+		int n = nums.length;
+		int dp[] = new int[n];
+		dp[0] = nums[0];
 		
-		for(int i = 1; i < nums.size(); ++i) {
-		
-			if(i >= 2) dp[i] = Math.max(dp[i-2] + nums.get(i), dp[i-1]);
-			else if(i == 1) dp[i] = Math.max(0 + nums.get(i), dp[i-1]);
+		for(int i = 1; i < n; ++i) {
+            int pick = nums[i];
+            if(i > 1) pick += dp[i - 2];
+            int notPick = dp[i - 1];
+            dp[i] = Math.max(pick, notPick);
 		}
 		
-		return dp[nums.size()-1];
+		return dp[n - 1];
 		
 	}
 	
 	// 5.4
-	public static int maximumNonAdjacentSum4(ArrayList<Integer> nums) {
+	public static int maximumNonAdjacentSum4(int[] nums) {
 		
-		int prev = nums.get(0);
+		int n = nums.length;
+		int prev1 = nums[0];
 		int prev2 = 0;
 		
-		for(int i = 1; i < nums.size(); ++i) {
-			
-			int curr = Math.max(prev2 + nums.get(i), prev);
-			prev2 = prev;
-			prev = curr;
-			
+		for(int i = 1; i < n; ++i) {
+            int pick = nums[i];
+            if(i > 1) pick += prev2;
+            int notPick = prev1;
+            int curr = Math.max(pick, notPick);
+            
+            prev2 = prev1;
+            prev1 = curr;
 		}
 		
-		return prev;
-		
+		return prev1;
 	}
 	
 	/* ------------------------------------------------------------------ */

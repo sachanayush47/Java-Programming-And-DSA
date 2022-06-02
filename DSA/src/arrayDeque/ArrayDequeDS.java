@@ -14,7 +14,7 @@ public class ArrayDequeDS {
 	 * 
 	 * 	Methods:
 	 *		..Operation..			..Method(Returns null/false)..		..Method(Thows exception)..
-	 * 	Insertion from headDeque			offerFirst(e)					addFirst(e)
+	 * 	Insertion from headDeque		offerFirst(e)						addFirst(e)
 	 * 	Removal from heaDeque			pollFirst()							removeFirst()
 	 * 	Retrieval from heaDeque			peekFirst()							getFirst()
 	 * 	Insertion from tail				offerLast(e)						addLast(e)	

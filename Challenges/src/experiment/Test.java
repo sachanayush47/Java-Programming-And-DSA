@@ -108,10 +108,155 @@ public class Test {
 //        }
 //        System.out.println("fast elapsed " + (System.currentTimeMillis() - now) + " ms");
         
-		System.out.println(Math.max(1, 3));
+//		System.out.println(Math.max(1, 3));
         
-        
+//		decToBinary(123);
 		
+//		subsetsWithDup(new int[] {1, 2, 2});
+		
+//		Map<Integer, Integer> map = new HashMap<>();
+//		map.getOrDefault(2, null);
+//		map.containsKey(5);
+		
+//		findSubsets(null, null, null, 0);
+		
+//		System.out.println('5' + '5');
+		
+//		String i = "Ayush";
+//		func(i);
+//		System.out.println(i);
+		System.out.println();
+		System.out.println("\tSorted array:");
+		System.out.println("\t" + Arrays.toString(new int[] {1, 5, 7, 8, 9, 10}));
+	}
+	
+	public static void func(String i) {
+		i = i.substring(2);
+	}
+	
+    public static List<List<Integer>> subsetsWithDup(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>();
+        
+        subsetsWithDupHelper(nums.length - 1, temp, res, nums);
+//        System.out.println(res);
+//        findSubsets(res, nums, temp, 0);
+        return res;
+    }
+	
+    public static void subsetsWithDupHelper(int i, List<Integer> temp, List<List<Integer>> res, int[] nums) {
+        
+        if(i < 0) {
+        	System.out.println(temp);
+        	res.add(temp);
+            return;
+        }
+        
+        subsetsWithDupHelper(i - 1, temp, res, nums);
+        temp.add(nums[i]);
+        int size = temp.size() - 1;
+        subsetsWithDupHelper(i - 1, temp, res, nums);
+        temp.remove(size);
+    }
+    
+    public static void findSubsets(List<List<Integer>> subset, int nums[], ArrayList<Integer> output, int index)
+    {
+      // Base Condition
+        if (index == nums.length) {
+        	System.out.println(output);
+            subset.add(output);
+            return;
+        }
+       
+        // Not Including Value which is at Index
+        findSubsets(subset, nums, new ArrayList<>(output), index + 1);
+ 
+        // Including Value which is at Index
+        output.add(nums[index]);
+        findSubsets(subset, nums, new ArrayList<>(output), index + 1);
+    }
+	
+	
+    public static void nextPermutation(int[] nums) {
+        
+        int l = nums.length;
+        int i;
+        for(i = l - 2; i >= 0; --i) {
+            if(nums[i] < nums[i + 1]) break;
+        }
+        
+        for(int j = l - 1; j >= 0; --j) {
+            if(nums[j] > nums[i]) {
+                swap(i, j, nums);
+                break;
+            }
+        }
+        
+        ++i;
+        --l;
+        while(i < l) {
+            swap(i, l, nums);
+        }
+        }
+        
+    public static void swap(int i, int j, int[] arr) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+	
+	
+	public static void bfs(ArrayList<ArrayList<Integer>> adj, int V, int src) {
+		int color[] = new int[V + 1]; 	// 0 = Unvisited,	1 = Visited
+		int d[] = new int[V + 1];
+		
+		for(int i = 1; i <= V; ++i) d[i] = Integer.MAX_VALUE;
+		
+		Queue<Integer> q = new LinkedList<>();
+		q.offer(src);
+		color[src] = 1;
+		d[src] = 0;
+		
+		while(q.isEmpty() == false) {
+			int node = q.poll();
+
+			for(int it : adj.get(node)) {
+				if(color[it] == 0) {
+					q.offer(it);
+					color[it] = 1;
+					d[it] = d[node] + 1;
+				}
+			}
+		}
+		
+	}
+	
+    static void decToBinary(int n) {
+        // array to store binary number
+        int[] binaryNum = new int[32];
+ 
+        // counter for binary array
+        int i = 0;
+        while (n > 0) {
+            // storing remainder in binary array
+            binaryNum[i] = n % 2;
+            n = n / 2;
+            i++;
+        }
+ 
+        // printing binary array in reverse order
+        for (int j = i - 1; j >= 0; j--)
+            System.out.print(binaryNum[j]);
+    }
+	
+	class Pair<E, F> {
+		E obj1;
+		F obj2;
+		
+		Pair(E obj1, F obj2) {
+			this.obj1 = obj1;
+			this.obj2 = obj2;
+		}
 	}
 	
 	private static String fast() {
