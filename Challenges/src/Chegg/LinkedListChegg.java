@@ -7,26 +7,26 @@ public class LinkedListChegg {
 	
 	public static void main(String[] args) {
 		
-//		head = new Node(1);
-//		head.next = new Node(2);
-//		head.next.next = new Node(3);
-//		head.next.next.next = new Node(6);
+		head = new Node(1);
+		head.next = new Node(2);
+		head.next.next = new Node(3);
+		head.next.next.next = new Node(6);
 //		head.next.next.next.next = new Node(7);
 //		head.next.next.next.next.next = new Node(8);
-//		size = 5;
-//		printLL();
-//		
-//		swap1_2();
-//		
-//		printLL();
-//		
-//		addLast(new Node(4));
-//		
-//		printLL();
-//		
-//		insertMiddle(new Node(5));
-//		
-//		printLL();
+		size = 4;
+		printLL();
+		
+		swap1_2();
+		
+		printLL();
+		
+		addLast(new Node(4));
+		
+		printLL();
+		
+		insertMiddle(new Node(5));
+		
+		printLL();
 	}
 	
 	static void printLL() {
@@ -45,9 +45,9 @@ public class LinkedListChegg {
 			head = temp.next;
 			
 			// You missed that line. You have to link 1st node to the 3rd node.
-			temp.next = head.next;
+			temp.setNext(head.next);
 			
-			head.next = temp;
+			head.setNext(temp);
 		}
 	}
 	
@@ -64,7 +64,7 @@ public class LinkedListChegg {
 				temp = temp.next;
 			}
 			
-			temp.next = n;
+			temp.setNext(n);;
 			++size;
 		}
 	}
@@ -75,8 +75,8 @@ public class LinkedListChegg {
 			temp = temp.next;
 		}
 		
-		n.next = temp.next;
-		temp.next = n;
+		n.setNext(temp.next);
+		temp.setNext(n);
 	}
 
 }

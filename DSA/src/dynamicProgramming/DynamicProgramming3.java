@@ -1,5 +1,7 @@
 package dynamicProgramming;
 
+import java.util.Arrays;
+
 public class DynamicProgramming3 {
 
 	public static void main(String[] args) {
@@ -8,11 +10,416 @@ public class DynamicProgramming3 {
 	
 	/* ------------------------------------------------------------------ */
 	
-	/* ------------------------------------------------------------------ */
+							// 34 Wildcard matching.
+	
+	// 34.1
+	public static boolean isMatch1(String s, String p) {
+        
+        int l1 = s.length();
+        int l2 = p.length();
+        
+        return isMatchHelper1(l1 - 1, l2 - 1, s, p);
+        
+    }
+    
+    public static boolean isMatchHelper1(int i, int j, String s, String p) {
+        
+        if(i < 0 && j < 0) return true;
+        if(j < 0) return false;
+        if(i < 0) {
+            while(j >= 0) {
+                if(p.charAt(j) != '*') return false;
+                --j;
+            }
+            
+            return true;
+        }
+        
+        if(s.charAt(i) == p.charAt(j) || p.charAt(j) == '?') {
+            return isMatchHelper1(i - 1, j - 1, s, p);
+        }
+        
+        if(p.charAt(j) == '*') {
+            boolean match = isMatchHelper1(i - 1, j, s, p);
+            boolean notMatch = isMatchHelper1(i, j - 1, s, p);
+            
+            return match || notMatch;
+        }
+        
+        return false;
+    }
+	
+    // 34.2
+	public static boolean isMatch2(String s, String p) {
+        
+        int l1 = s.length();
+        int l2 = p.length();
+        
+        int dp[][] = new int[l1][l2];
+        for(int it[] : dp) {
+            Arrays.fill(it, -1);
+        }
+        
+        return isMatchHelper2(l1 - 1, l2 - 1, s, p, dp);
+    }
+    
+    public static boolean isMatchHelper2(int i, int j, String s, String p, int dp[][]) {
+        
+        if(i < 0 && j < 0) return true;
+        if(j < 0) return false;
+        if(i < 0) {
+            while(j >= 0) {
+                if(p.charAt(j) != '*') return false;
+                --j;
+            }
+            
+            return true;
+        }
+        
+        if(dp[i][j] != -1) {
+            return dp[i][j] == 1 ? true : false;
+        }
+        
+        if(s.charAt(i) == p.charAt(j) || p.charAt(j) == '?') {
+            dp[i][j] = isMatchHelper2(i - 1, j - 1, s, p, dp) ? 1 : 0;
+            return dp[i][j] == 1 ? true : false;
+        }
+        
+        if(p.charAt(j) == '*') {
+            boolean match = isMatchHelper2(i - 1, j, s, p, dp);
+            boolean notMatch = isMatchHelper2(i, j - 1, s, p, dp);
+            
+            dp[i][j] = match || notMatch ? 1 : 0;
+            return dp[i][j] == 1 ? true : false;
+        }
+        
+        dp[i][j] = 0;
+        return false;
+    }
+    
+    // 33.3
+    public static boolean isMatch3(String s, String p) {
+        
+        int l1 = s.length();
+        int l2 = p.length();
+        
+        int dp[][] = new int[l1 + 1][l2 + 1];
+        
+        dp[0][0] = 1;
+        
+        // Useless
+        // for(int i = 0; i <= l1; ++i) {
+        //     dp[i][0] = 0;
+        // }
+        
+        for(int i = 0; i <= l2; ++i) {
+            
+            dp[0][i] = 1;
+            
+            for(int j = i; j >= 1; --j) {
+                if(p.charAt(j - 1) != '*') {
+                    dp[0][i] = 0;
+                    break;
+                }
+            }    
+        }
+        
+        for(int i = 1; i <= l1; ++i) {
+            for(int j = 1; j <= l2; ++j) {
+                if(s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '?') {
+                    dp[i][j] = dp[i - 1][j - 1] == 1 ? 1 : 0;
+                } else if(p.charAt(j - 1) == '*') {
+                    int match = dp[i - 1][j];
+                    int notMatch = dp[i][j - 1];
+            
+                    dp[i][j] = (match == 1 || notMatch == 1) ? 1 : 0;
+                } else dp[i][j] = 0;
+            }
+        }
+        
+        
+        return dp[l1][l2] == 1 ? true : false;
+    }
+    
+    // 34.4
+    public static boolean isMatch4(String s, String p) {
+        
+        int l1 = s.length();
+        int l2 = p.length();
+        
+        int prev[] = new int[l2 + 1];
+        
+        prev[0] = 1;
+        
+        // Useless
+        // for(int i = 0; i <= l1; ++i) {
+        //     dp[i][0] = 0;
+        // }
+        
+        for(int i = 0; i <= l2; ++i) {
+            
+            prev[i] = 1;
+            
+            for(int j = i; j >= 1; --j) {
+                if(p.charAt(j - 1) != '*') {
+                    prev[i] = 0;
+                    break;
+                }
+            }    
+        }
+        
+        for(int i = 1; i <= l1; ++i) {
+            
+            int curr[] = new int[l2 + 1];
+            
+            for(int j = 1; j <= l2; ++j) {
+                if(s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '?') {
+                    curr[j] = prev[j - 1] == 1 ? 1 : 0;
+                } else if(p.charAt(j - 1) == '*') {
+                    int match = prev[j];
+                    int notMatch = curr[j - 1];
+            
+                    curr[j] = (match == 1 || notMatch == 1) ? 1 : 0;
+                } else curr[j] = 0;
+            }
+            
+            prev = curr;
+        }
+        
+        return prev[l2] == 1 ? true : false;
+    }
 	
 	/* ------------------------------------------------------------------ */
 	
+							// 33. Edit Distance
+	
+	// 33.2
+	public static int minDistance2(String word1, String word2) {
+        
+        int l1 = word1.length();
+        int l2 = word2.length();
+        
+        int dp[][] = new int[l1][l2];
+        
+        for(int it[] : dp) {
+            Arrays.fill(it, -1);
+        }
+        
+        return minDistanceHelper2(l1 - 1, l2 - 1, word1, word2, dp);
+    }
+    
+    public static int minDistanceHelper2(int i, int j, String word1, String word2, int dp[][]) {
+        
+        if(i < 0) return j + 1;        
+        if(j < 0) return i + 1;
+        
+        if(dp[i][j] != -1) return dp[i][j];
+        
+        if(word1.charAt(i) == word2.charAt(j)) {
+            return dp[i][j] = 0 + minDistanceHelper2(i - 1, j - 1, word1, word2, dp);
+        }
+        
+        int insert = 1 + minDistanceHelper2(i, j - 1, word1, word2, dp);
+        int delete = 1 + minDistanceHelper2(i - 1, j, word1, word2, dp);
+        int replace = 1 + minDistanceHelper2(i - 1, j - 1, word1, word2, dp);
+        
+        return dp[i][j] = Math.min(insert, Math.min(delete, replace));
+    }
+    
+    // 33.3
+    public static int minDistance(String word1, String word2) {
+        
+        int l1 = word1.length();
+        int l2 = word2.length();
+        
+        int dp[][] = new int[l1 + 1][l2 + 2];
+        
+        for(int j = 0; j <= l2; ++j) dp[0][j] = j;
+        for(int i = 0; i <= l1; ++i) dp[i][0] = i;
+        
+        for(int i = 1; i <= l1; ++i) {
+            for(int j = 1; j <= l2; ++j) {
+                if(word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i][j] = 0 + dp[i - 1][j - 1];
+                } else {
+                    int insert = 1 + dp[i][j - 1];
+                    int delete = 1 + dp[i - 1][j];
+                    int replace = 1 + dp[i - 1][j - 1];
+        
+                    dp[i][j] = Math.min(insert, Math.min(delete, replace));
+                }
+            }
+        }
+        
+        return dp[l1][l2];
+    }
+    
+    // 33.4
+    public static int minDistance4(String word1, String word2) {
+        
+        int l1 = word1.length();
+        int l2 = word2.length();
+        
+        int prev[] = new int[l2 + 1];
+        
+        for(int j = 0; j <= l2; ++j) prev[j] = j;
+        
+        for(int i = 1; i <= l1; ++i) {
+            
+            int curr[] = new int[l2 + 1];
+            curr[0] = i;
+            for(int j = 1; j <= l2; ++j) {
+                if(word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    curr[j] = 0 + prev[j - 1];
+                } else {
+                    int insert = 1 + curr[j - 1];
+                    int delete = 1 + prev[j];
+                    int replace = 1 + prev[j - 1];
+        
+                    curr[j] = Math.min(insert, Math.min(delete, replace));
+                }
+            }
+            
+            prev = curr;
+        }
+        
+        return prev[l2];
+    }
+	
 	/* ------------------------------------------------------------------ */
+	
+							// 32. Distinct Subsequences
+	
+	// 32.2
+	public int numDistinct2(String s, String t) {
+        int l1 = s.length();
+        int l2 = t.length();
+        
+        int dp[][] = new int[l1][l2];
+        
+        for(int it[] : dp) {
+            Arrays.fill(it, -1);
+        }
+        
+        return numDistinctHelper2(s, t, l1 - 1, l2 - 1, dp);
+    }
+    
+    public int numDistinctHelper2(String s, String t, int i, int j, int dp[][]) {
+
+        if(j < 0) return 1;
+        if(i < 0) return 0;
+        
+        if(dp[i][j] != -1) return dp[i][j];
+        
+        if(s.charAt(i) == t.charAt(j)) {
+            int pick = numDistinctHelper2(s, t, i - 1, j - 1, dp);
+            int notPick = numDistinctHelper2(s, t, i - 1, j, dp);
+            return dp[i][j] = pick + notPick;
+        } else {
+            return dp[i][j] = numDistinctHelper2(s, t, i - 1, j, dp);
+        }
+    }
+	
+	// 32.3
+	public static int numDistinct3(String s, String t) {
+        int l1 = s.length();
+        int l2 = t.length();
+        
+        int dp[][] = new int[l1 + 1][l2 + 1];
+        
+        for(int i = 0; i <= l1; ++i) {
+            dp[i][0] = 1;
+        }
+        
+        for(int i = 1; i <= l1; ++i) {
+            for(int j = 1; j <= l2; ++j) {
+                if(s.charAt(i - 1) == t.charAt(j - 1)) {
+                    int pick = dp[i - 1][j - 1];
+                    int notPick = dp[i - 1][j];
+                    dp[i][j] = pick + notPick;
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        
+        return dp[l1][l2];
+    }
+	
+	// 32.4
+	public static int numDistinct4(String s, String t) {
+        int l1 = s.length();
+        int l2 = t.length();
+        
+        int prev[] = new int[l2 + 1];
+        
+        prev[0] = 1;
+        
+        for(int i = 1; i <= l1; ++i) {
+            
+            int curr[] = new int[l2 + 1];
+            curr[0] = 1;
+            for(int j = 1; j <= l2; ++j) {
+                if(s.charAt(i - 1) == t.charAt(j - 1)) {
+                    int pick = prev[j - 1];
+                    int notPick = prev[j];
+                    curr[j] = pick + notPick;
+                } else {
+                    curr[j] = prev[j];
+                }
+            }
+            
+            prev = curr;
+        }
+        
+        return prev[l2];
+    }
+	
+	/* ------------------------------------------------------------------ */
+	
+						// 31. Shortest commom supersequence.
+	
+	public static String shortestCommonSupersequence(String str1, String str2) {
+        
+        int l1 = str1.length();
+        int l2 = str2.length();
+        
+        int dp[][] = new int[l1 + 1][l2 + 1];
+        
+        for(int i = 1; i <= l1; ++i) {
+            for(int j = 1; j <= l2; ++j) {
+                if(str1.charAt(i - 1) == str2.charAt(j - 1)) {
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+        
+        String res = "";
+        
+        int i = l1;
+        int j = l2;
+        
+        while(i > 0 && j > 0) {
+            if(str1.charAt(i - 1) == str2.charAt(j - 1)) {
+                res = str1.charAt(i - 1) + res;
+                --i;
+                --j;
+            } else if(dp[i - 1][j] > dp[i][j - 1]) {
+                res = str1.charAt(i - 1) + res;
+                --i;
+            } else {
+                res = str2.charAt(j - 1) + res;
+                --j;
+            }
+        }
+        
+        if(i > 0) res = str1.substring(0, i) + res;
+        if(j > 0) res = str2.substring(0, j) + res;
+        
+        return res;
+    }
 	
 	/* ------------------------------------------------------------------ */
 	
@@ -145,7 +552,7 @@ public class DynamicProgramming3 {
 	
 						// 27. Longest Common Substring
 	
-	// Feel nhi aayi
+	
 	
 	// 27.3
 	public static int lcSubstring3(String str1, String str2) {

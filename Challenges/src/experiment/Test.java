@@ -125,10 +125,21 @@ public class Test {
 //		String i = "Ayush";
 //		func(i);
 //		System.out.println(i);
-		System.out.println();
-		System.out.println("\tSorted array:");
-		System.out.println("\t" + Arrays.toString(new int[] {1, 5, 7, 8, 9, 10}));
+//		System.out.println();
+//		System.out.println("\tSorted array:");
+//		System.out.println("\t" + Arrays.toString(new int[] {1, 5, 7, 8, 9, 10}));
+	
+		
+		int x = 2;
+		double y = x;
+		String result = String.format("%.2f", y);
+		System.out.println(result);
+		
+		String s = "ayush";
+	
 	}
+	
+	
 	
 	public static void func(String i) {
 		i = i.substring(2);

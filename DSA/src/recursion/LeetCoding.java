@@ -4,13 +4,49 @@ public class LeetCoding {
 
 	public static void main(String[] args) {
 		
-//		char c[][] = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
-		char c[][] = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
-//		char c[][] = {{'a','b'}};
-		
-		System.out.println(exist(c, "ABCB"));
 		
 	}
+	
+	//	-------------------------------------------------------------------------
+	//	-------------------------------------------------------------------------
+	//	-------------------------------------------------------------------------
+	//	-------------------------------------------------------------------------
+	
+								// 200. Number of islands.
+	
+	public static int numIslands(char[][] grid) {
+        
+		int m = grid.length;
+		int n = grid[0].length;
+		
+		int ans = 0;
+		
+		for(int i = 0; i < m; ++i) {
+			 for(int j = 0; j < n; ++j) {
+				 if(grid[i][j] == '1') {
+					++ans;
+					numIslandsHelper(i, j, grid);
+				 }
+			 }
+		}
+		
+		return ans;
+    }
+	
+	public static void numIslandsHelper(int i, int j, char[][] grid) {
+		
+		if(i >= grid.length || j >= grid[0].length || j < 0 || i < 0) return;
+		
+		if(grid[i][j] == '0') return;
+		
+		grid[i][j] = '0';
+        numIslandsHelper(i, j + 1, grid);
+        numIslandsHelper(i - 1, j, grid);
+        numIslandsHelper(i, j - 1, grid);
+		numIslandsHelper(i + 1, j, grid);
+	}
+	
+	//	-------------------------------------------------------------------------
 	
 	// Did some memory optimizations.
 	public static boolean exist(char[][] board, String word) {
@@ -72,61 +108,6 @@ public class LeetCoding {
         return false;
     }
 	
-//    public static boolean exist(char[][] board, String word) {
-//        
-//    	int m = board.length;
-//    	int n = board[0].length;
-//    	
-//        for(int i = 0; i < m; ++i) {
-//            for(int j = 0; j < n; ++j) {
-//                if(word.charAt(0) == board[i][j]) {
-//                	boolean isUsed[][] = new boolean[m][n];
-//                	isUsed[i][j] = true;
-//                	if(existHelper(i, j, 1, board, word, isUsed)) return true;
-//                }
-//            }
-//        }
-//        
-//        return false;
-//    }
-//    
-//    public static boolean existHelper
-//    	(int i, int j, int s, char[][] board, String word, boolean isUsed[][]) {
-//        if(s == word.length()) {
-//        	return true;
-//        }
-//        
-//        if(i == board.length || j == board[0].length) return false;
-//        
-//        // Up
-//        if(i > 0 && board[i - 1][j] == word.charAt(s) && isUsed[i - 1][j] == false) {
-//        	isUsed[i - 1][j] = true;
-//        	if(existHelper(i - 1, j, s + 1, board, word, isUsed)) return true;
-//        	else isUsed[i - 1][j] = false;
-//        }
-//        
-//        // Down
-//        if(i < board.length - 1 && board[i + 1][j] == word.charAt(s) && isUsed[i + 1][j] == false) {
-//        	isUsed[i + 1][j] = true;
-//        	if(existHelper(i + 1, j, s + 1, board, word, isUsed)) return true;
-//        	else isUsed[i + 1][j] = false;
-//        }
-//        
-//        // Left
-//        if(j > 0 && board[i][j - 1] == word.charAt(s) && isUsed[i][j - 1] == false) {
-//        	isUsed[i][j - 1] = true;
-//        	if(existHelper(i, j - 1, s + 1, board, word, isUsed)) return true;
-//        	else isUsed[i][j - 1] = false;
-//        }
-//        
-//        // Right
-//        if(j < board[0].length -1 && board[i][j + 1] == word.charAt(s) && isUsed[i][j + 1] == false) {
-//        	isUsed[i][j + 1] = true;
-//        	if(existHelper(i, j + 1, s + 1, board, word, isUsed)) return true;
-//        	else isUsed[i][j + 1] = false;
-//        }
-//        
-//        return false;
-//    }
+
 
 }
