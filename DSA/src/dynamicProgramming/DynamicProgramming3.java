@@ -2,6 +2,14 @@ package dynamicProgramming;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * @author sacha
+ * We use 1 based indexing when we have to represent -1 index as well, as arrays cannot have 
+ * -1 index. We use 1 based indexing.
+ *
+ */
+
 public class DynamicProgramming3 {
 
 	public static void main(String[] args) {
@@ -502,7 +510,14 @@ public class DynamicProgramming3 {
 	
 	// 28.3
 	public static int longestPalindromeSubsequence3(String s) {
-		return longestPalindromeSubsequence3Helper(s, new StringBuilder(s).reverse().toString());
+		
+		// We do both memoization as well as tabulation.
+		// This problem is 99% similar to length of LCS.
+		// Just reverse the given string and pass it to the method
+		// as second string.
+		
+		return longestPalindromeSubsequence3Helper
+				(s, new StringBuilder(s).reverse().toString());
 	}
 	
 	public static int longestPalindromeSubsequence3Helper(String s, String t) {
@@ -552,8 +567,6 @@ public class DynamicProgramming3 {
 	
 						// 27. Longest Common Substring
 	
-	
-	
 	// 27.3
 	public static int lcSubstring3(String str1, String str2) {
 		
@@ -568,7 +581,7 @@ public class DynamicProgramming3 {
 				if(str1.charAt(i - 1) == str2.charAt(j - 1)) {
 					dp[i][j] = 1 + dp[i - 1][j - 1];
 					ans = Math.max(ans, dp[i][j]);
-				} else dp[i][j] = 0;
+				} else dp[i][j] = 0;		// Not carrying any kind of disturbance.
 			}
 		}
 		
@@ -605,12 +618,12 @@ public class DynamicProgramming3 {
 	
 	// 26.3
 	public static String printLCS(String s, String t) {
-		
 		int sLen = s.length();
 		int tLen = t.length();
 		
 		int dp[][] = new int[sLen + 1][tLen + 1];
 		
+		// Finding length of longest LCS.
 		for(int indS = 1; indS <= sLen; ++indS) {
 			for(int indT = 1; indT <= tLen; ++indT) {
 				if(s.charAt(indS - 1) == t.charAt(indT - 1)) 
@@ -620,15 +633,14 @@ public class DynamicProgramming3 {
 		}
 		
 		String ans = "";
-		int i = sLen;
-		int j = tLen;
+		int i = sLen;			// Row
+		int j = tLen;			// Column
 		while(i > 0 && j > 0) {
-			if(s.charAt(i - 1) == t.charAt(j - 1)) {
+			if(s.charAt(i - 1) == t.charAt(j - 1)) {		// Moving diagonally
 				ans = s.charAt(i - 1) + ans;
-				--i;
-				--j;
-			} else if(dp[i][j - 1] > dp[i - 1][j]) --j;
-			else if(dp[i][j - 1] < dp[i - 1][j]) --i;
+				--i; --j;
+			} else if(dp[i][j - 1] > dp[i - 1][j]) --j;		// Move to prev column
+			else if(dp[i][j - 1] < dp[i - 1][j]) --i;		// Move to prev row
 		}
 		
 		return ans;
@@ -654,18 +666,28 @@ public class DynamicProgramming3 {
 	
 	// 25.2
 	public static int lcs2(String s, String t) {
+		
+		// Here we are using 1 based indexing,
 		Integer dp[][] = new Integer[s.length() + 1][t.length() + 1];
 		return lcs2Helper(s.length(), t.length(), s, t, dp);
 	}
 	
 	public static int lcs2Helper(int indS, int indT, String s, String t, Integer dp[][]) {
+		
+		// indS == 0 and intT == 0 means index -1.
+		// If any of the string exhausted means we cannot do further comprisons.
 		if(indS == 0 || indT == 0) return 0;
 		
 		if(dp[indS][indT] != null) return dp[indS][indT];
 		
+		
+		// If character present at index i and j matches then,
+		// reduce the both strings by 1.
 		if(s.charAt(indS - 1) == t.charAt(indT - 1)) 
 			return dp[indS][indT] = 1 + lcs2Helper(indS - 1, indT - 1, s, t, dp);
 		
+		// If character present at index i and j does not matches then,
+		// reduce the string1 by 1 and string2 remains the same or vice-versa.
 		return dp[indS][indT] = Math.max(
 				lcs2Helper(indS - 1, indT, s, t, dp), lcs2Helper(indS, indT - 1, s, t, dp));
 	}
@@ -676,11 +698,12 @@ public class DynamicProgramming3 {
 		int sLen = s.length();
 		int tLen = t.length();
 		
+		// Here we are using 1 based indexing,
 		int dp[][] = new int[sLen + 1][tLen + 1];
 		
 		// Base cases, makes no use of this code.
-//		for(int i = 0; i <= sLen; ++i) dp[sLen][0] = 0;
-//		for(int j = 0; j <= tLen; ++j) dp[0][tLen] = 0;
+		// for(int i = 0; i <= sLen; ++i) dp[sLen][0] = 0;
+		// for(int j = 0; j <= tLen; ++j) dp[0][tLen] = 0;
 		
 		for(int indS = 1; indS <= sLen; ++indS) {
 			for(int indT = 1; indT <= tLen; ++indT) {

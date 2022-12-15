@@ -7,6 +7,10 @@ public class Test {
 
 	public static void main(String[] args) {
 		
+		String s1 = "aaaaaa";
+		
+		System.out.println(s1.indexOf("b"));
+		
 //		int arr[] = {1,2,3,8,9,6,0,4};
 //		System.out.println(getIndex(arr, 8, arr.length-1));
 		

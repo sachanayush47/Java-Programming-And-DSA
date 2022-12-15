@@ -31,22 +31,22 @@ public class BinaryTree<E> {
 		 * 						700
 		 */
 		
-		Node root1 = new Node(1);
-
-		root1.left = new Node(2);
-		root1.left.left = new Node(4);
-		
-		root1.right = new Node(3);
-		root1.right.left = new Node(100);
-		root1.right.right = new Node(200);
-		
-		root1.left.right = new Node(5);
-		
-		root1.left.right.left = new Node(6);
-		root1.left.right.right = new Node(7);
-		root1.left.right.right.left = new Node(69);
-		root1.left.right.right.right = new Node(70);
-		root1.left.right.right.right.right = new Node(700);
+//		Node root1 = new Node(1);
+//
+//		root1.left = new Node(2);
+//		root1.left.left = new Node(4);
+//		
+//		root1.right = new Node(3);
+//		root1.right.left = new Node(100);
+//		root1.right.right = new Node(200);
+//		
+//		root1.left.right = new Node(5);
+//		
+//		root1.left.right.left = new Node(6);
+//		root1.left.right.right = new Node(7);
+//		root1.left.right.right.left = new Node(69);
+//		root1.left.right.right.right = new Node(70);
+//		root1.left.right.right.right.right = new Node(700);
 		
 		/**
 		 * 					10
@@ -58,16 +58,16 @@ public class BinaryTree<E> {
 		 * 
 		 */
 		
-		Node root2 = new Node(10);
-		
-		root2.left = new Node(5);
-		root2.left.right = new Node(8);
-		root2.left.right.left = new Node(7);
-		root2.left.left = new Node(3);
-		
-		root2.right = new Node(20);
-		root2.right.left = new Node(18);
-		root2.right.right = new Node(25);
+//		Node root2 = new Node(10);
+//		
+//		root2.left = new Node(5);
+//		root2.left.right = new Node(8);
+//		root2.left.right.left = new Node(7);
+//		root2.left.left = new Node(3);
+//		
+//		root2.right = new Node(20);
+//		root2.right.left = new Node(18);
+//		root2.right.right = new Node(25);
 		
 		
 		//System.out.println(balancedBinaryTree(root));
@@ -80,18 +80,92 @@ public class BinaryTree<E> {
 //		System.out.println(verticalTraversal(root1));
 //		System.out.println(verticalTraversal(deserializeTree(serializeTree(root1))));
 		
-		Node x = new Node(1);
-		x.right = new Node(2);
-		x.right.right = new Node(3);
-		x.right.right.right = new Node(4);
+//		Node x = new Node(1);
+//		x.right = new Node(2);
+//		x.right.right = new Node(3);
+//		x.right.right.right = new Node(4);
 		
+		Node root = new Node(1);
+		root.left = new Node(3);
+		root.right = new Node(2);
+		
+		root.left.left = new Node(7);
+		root.left.right = new Node(6);
+		
+		root.right.left = new Node(5);
+		root.right.right = new Node(4);
+		
+//		List<List<Integer>> x = levelOrderTraversal(root);
+		System.out.println(minimumOperations(root));
+//		System.out.println(x.size());
 		
 	}
 	/* ------------------------------------------------------------------ */
 
-	// TESTING
+	// TESTING : USELESS
 	
 	
+    public static int minimumOperations(Node root) {
+		Queue<Node> queue = new LinkedList<Node>();
+		List<List<Integer>> wrapList = new ArrayList<List<Integer>>();
+		
+		if(root == null) return 0;
+		
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			List<Integer> subList = new ArrayList<Integer>();
+			int levelNum = queue.size();
+			for(int i = 0; i < levelNum; ++i) {
+				if(queue.peek().left != null) queue.offer(queue.peek().left);
+				if(queue.peek().right != null) queue.offer(queue.peek().right);
+				subList.add(queue.poll().data);
+			}
+			
+			wrapList.add(subList);
+		}
+		
+        
+        int ans = 0;
+        int[][] arr = wrapList.stream()
+                .map(l -> l.stream().mapToInt(Integer::intValue).toArray())
+                .toArray(int[][]::new);
+        
+        
+        for(int x[] : arr) {
+            ans += minSwaps(x);
+        }
+        
+        return ans;
+    }
+	
+    public static int minSwaps(int[] nums) {
+        int n = nums.length;
+        
+        Map<Integer, Integer> map = new HashMap<>();
+        
+        for(int i=0; i < n; ++i)map.put(nums[i], i);
+             
+        Arrays.sort(nums);  
+         
+        boolean[] visited = new boolean[n];
+         
+        int swaps = 0;
+        for(int i=0; i < n; ++i) {
+            if(visited[i] || map.get(nums[i]) == i) continue;
+                 
+            int j = i;
+            int k = 0;
+            while(!visited[j]) {
+                visited[j] = true;
+                j = map.get(nums[j]);
+                ++k;
+            }
+             
+            if(k > 0) swaps += (k - 1);
+        }
+        
+        return swaps;
+    }
 	
 	
 	
