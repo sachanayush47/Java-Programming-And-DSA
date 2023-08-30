@@ -479,7 +479,7 @@ public class BinaryTree<E> {
 	}
 	
 	/* ------------------------------------------------------------------ */
-	// This is completly written by my own thinking process. Only problem is it is using
+	// This is completely written by my own thinking process. Only problem is it is using
 	// brute force approach.
 	
 //	public static int lowestCommonAncestor(Node root, Node p, Node q) {
@@ -532,7 +532,7 @@ public class BinaryTree<E> {
 	
 	
 	/* ------------------------------------------------------------------ */
-	// This is completly written by my own thinking process. Only problem is it is using
+	// This is completely written by my own thinking process. Only problem is it is using
 	// 1 extra parameter.
 	
 //	public static LinkedList<Integer> rootToNodePath(Node root, int b) {
@@ -575,7 +575,7 @@ public class BinaryTree<E> {
 	}
 	
 	/* ------------------------------------------------------------------ */
-	// This is completly written by my own thinking process.
+	// This is completely written by my own thinking process.
 	public static boolean symmetricBT(Node root) {
 		if(root == null) return true;
 		
@@ -607,7 +607,7 @@ public class BinaryTree<E> {
 	}
 	
 	/* ------------------------------------------------------------------ */
-	// This is completly written by my own thinking process.
+	// This is completely written by my own thinking process.
 	
 	// Class required for Bottom view and Top view.
 	static class Pair {
@@ -783,7 +783,7 @@ public class BinaryTree<E> {
 //		
 //	}
 	
-	// This solution is by RVA. It has more readability, clean and understandble.
+	// This solution is by RVA. It has more readability, clean and understandable.
     public static ArrayList <Integer> boundaryTraversal(Node root) {
 	    ArrayList<Integer> ans = new ArrayList<Integer>(); 
 	    if(root == null) return ans;
