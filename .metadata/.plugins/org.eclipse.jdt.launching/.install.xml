@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Program Files\Java\jdk-17" stamp="1677964575786"/>
+    <entry loc="/var/lib/snapd/snap/eclipse/101/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.4.v20240802-1551" stamp="1726216693000"/>
+    <entry loc="/usr/lib/jvm/java-21-openjdk-21.0.4.0.7-2.fc40.x86_64" stamp="1724511944970"/>
+    <entry loc="/var/lib/snapd/snap/eclipse/101/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.4.v20240802-1551/jre" stamp="1726216693000"/>
 </dirs>

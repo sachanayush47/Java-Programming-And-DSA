@@ -8,11 +8,11 @@ public class Array {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		
-	/** Arrays is DS i.e used to store mutiple values of same data type in a single variable.
-	 * 	It is stored in continuous memory location.
-	 * 	Initially, by default value stored in a array is 0
-	 */			
+
+	/* Arrays is DS i.e used to store multiple values of same data type in a single variable.
+	  	It is stored in continuous memory location.
+	  	Initially, by default value stored in a array is 0
+	 */
 		int arr[] = new int[10];
 		int age[] = {22, 59, 4, 36, 12, 56};
 		
@@ -53,7 +53,7 @@ public class Array {
 		lArray.add(40);
 		lArray.add(50);
 		lArray.add(60);
-		
+
 		lArray.set(5, 70);
 		System.out.println(lArray);
 		

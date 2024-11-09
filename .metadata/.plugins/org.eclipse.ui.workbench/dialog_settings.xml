@@ -8,5 +8,9 @@
 			<item value="org.eclipse.buildship.ui.importwizards"/>
 			<item value="org.eclipse.equinox.p2.category"/>
 		</list>
+		<section name="ImportExportWizard.dialogBounds">
+		</section>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
 	</section>
 </section>
